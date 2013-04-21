@@ -37,7 +37,7 @@ function run_once(cmd)
 run_once("urxvtd")
 run_once("unclutter -idle 10")
 
-run_once("xcompmgr -cF &")
+run_once("xcompmgr &")
 run_once("conky -c ~/.conky/conkyrc_greyinverse")
 
 -- }}}
