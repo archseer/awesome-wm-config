@@ -644,6 +644,8 @@ awful.rules.rules = {
                      }
     },
 
+    { rule = { class = "Chromium" },  properties = {tag = tags[1][2]}},
+    { rule = { class = "sublime-text"}, properties = {tag = tags[1][3]}},
 }
 
 -- }}}
