@@ -38,7 +38,8 @@ run_once("urxvtd")
 run_once("unclutter -idle 10")
 
 run_once("xcompmgr &")
-run_once("conky -c ~/.conky/conkyrc_greyinverse")
+run_once("conky -c ~/.conky/conkyrc_grey")
+run_once("xflux -l 46.050569 -g 14.515171")
 
 -- }}}
 
